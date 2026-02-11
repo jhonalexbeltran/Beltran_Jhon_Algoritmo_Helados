@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #c8f7dc, #cde7ff);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.contenedor {
+    background-color: #ffffffcc;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 500px;
+}
+
+h1 {
+    color: #4aa3a2;
+    margin-bottom: 5px;
+}
+
+.subtitulo {
+    color: #5f9ea0;
+    margin-bottom: 30px;
+}
+
+.comparacion {
+    margin-bottom: 30px;
+}
+
+.boton-sabor {
+    padding: 15px 25px;
+    margin: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    background-color: #a8e6cf;
+    color: #2f4f4f;
+    transition: all 0.2s ease;
+}
+
+.boton-sabor:hover {
+    background-color: #81d4fa;
+    transform: scale(1.05);
+}
+
+.vs {
+    font-weight: bold;
+    color: #4aa3a2;
+}
+
+.ranking-contenedor {
+    margin-top: 20px;
+}
+
+#ranking {
+    list-style: none;
+    padding: 0;
+}
+
+#ranking li {
+    background-color: #e0f7fa;
+    margin: 6px 0;
+    padding: 8px;
+    border-radius: 8px;
+    color: #2f4f4f;
+}
